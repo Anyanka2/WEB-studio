@@ -57,10 +57,12 @@ img {
 }
 .section {
   padding-top: 96px;
+  padding-bottom: 96px;
 }
 @media screen and (min-width: 1200px) {
   .section {
     padding-top: 120px;
+    padding-bottom: 0;
   }
 }
 /*global end*/
@@ -430,8 +432,18 @@ img {
   }
 }
 @media screen and (min-width: 1200px) {
+  .advantages-list li:nth-child(-n + 2) p {
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
   .advantages-item {
     flex-basis: calc((100% - 3 * 24px) / 4);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .advantages-list {
+    margin-bottom: 0;
   }
 }
 .services {
