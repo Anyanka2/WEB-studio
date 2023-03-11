@@ -425,13 +425,21 @@ img {
   }
 }
 @media screen and (min-width: 768px) {
-  .advantages-list li:nth-child(-n+2) p {
-    margin-bottom: 72px ;
+  .advantages-list li:nth-child(-n + 2) p {
+    margin-bottom: 72px;
   }
 }
 @media screen and (min-width: 1200px) {
   .advantages-item {
     flex-basis: calc((100% - 3 * 24px) / 4);
+  }
+}
+.services {
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .services {
+    display: flex;
   }
 }
 .services-list {
