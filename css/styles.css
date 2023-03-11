@@ -88,7 +88,7 @@ img {
   color: var(--primary-brand-iris);
 }
 .container {
-  max-width: 428px;
+  max-width: 480px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
