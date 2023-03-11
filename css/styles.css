@@ -1002,7 +1002,7 @@ img {
 }
 @media screen and (min-width: 768px) {
   .footer-button {
-    margin-left: 24px;
+    margin-left: 16px;
   }
 }
 .subscribe-button {
@@ -1066,9 +1066,9 @@ img {
   transform: scale(1.2);
   padding: 72px 24px 24px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 408px) {
   .backdrop .modal {
-    max-width: 392px;
+    max-width: 320px;
   }
 }
 
