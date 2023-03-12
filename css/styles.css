@@ -1066,12 +1066,11 @@ img {
   transform: scale(1.2);
   padding: 72px 24px 24px;
 }
-@media screen and (max-width: 408px) {
+@media screen and (max-width: 428px) {
   .backdrop .modal {
     max-width: 320px;
   }
 }
-
 .close-button {
   position: absolute;
   top: 24px;
@@ -1130,7 +1129,7 @@ img {
 }
 .user-input {
   padding-left: 38px;
-  width: 360px;
+  width: 100%;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
@@ -1145,7 +1144,7 @@ img {
 }
 .user-textarea {
   resize: none;
-  width: 360px;
+  width: 100%;
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
@@ -1156,6 +1155,11 @@ img {
 }
 .user-textarea::placeholder {
   color: rgba(117, 117, 117, 0.5);
+}
+@media screen and (max-width: 428px) {
+  .user-textarea {
+    height: 85px;
+  }
 }
 .user-form {
   position: relative;
