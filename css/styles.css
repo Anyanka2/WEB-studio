@@ -4,7 +4,6 @@
   --dark-navy-blue: #2e2f42;
   --body-text-slate: #434455;
   --helper-text-light-slate: #8e8f99;
-  --succes-green: #31d0aa;
   --accent-cornflower: #e7e9fc;
   --light-mode-cloud: #f4f4fd;
   --overlay-navy-blue-modal: #2e2f42;
@@ -945,7 +944,7 @@ img {
 }
 .footer-socials-link:focus,
 .footer-socials-link:hover {
-  background-color: var(--succes-green);
+  background-color: var(--pressed-state-ocean);
 }
 .footer-form {
   display: inline-block;
